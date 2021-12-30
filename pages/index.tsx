@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <meta name="author" content="John Doe Dentist" />
         <meta charSet="UTF-8" />
         <link rel="shortcut icon" type="image/ico" href="/Logos/favicon.ico" />
-        <meta name="robots" content="index" />
+        <meta name="robots" content="all" />
       </Head>
 
       {/* End of SEO Stuff */}
