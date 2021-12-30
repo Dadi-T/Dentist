@@ -9,7 +9,7 @@ export default function Hero() {
           A <span className="text-main">better Life</span>, starts with a
           beautiful <span className="text-main">smile</span>
         </h1>
-        <h3 className="lg:text-xl lg:mt-4 md:text-lg">
+        <h3 className="text-lg lg:text-xl lg:mt-4 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
         </h3>
