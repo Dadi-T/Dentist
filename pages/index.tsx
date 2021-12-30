@@ -5,10 +5,6 @@ import Body from "./Body";
 import Footer from "./Footer";
 import Head from "next/head";
 
-export const config = {
-  unstable_runtimeJS: false,
-};
-
 const Home: NextPage = () => {
   return (
     <div className="">
