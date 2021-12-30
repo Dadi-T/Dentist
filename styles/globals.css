@@ -10,7 +10,47 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.iconsvg {
+  fill: "red";
+}
 
 * {
   box-sizing: border-box;
 }
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-xl;
+  }
+}
+@layer utilities {
+  .rounded-edge {
+    left: 10.49%;
+    right: 83.61%;
+    top: 30.64%;
+    bottom: 65.96%;
+  }
+  .services {
+    margin: 14px 0px 14px 21px;
+  }
+  .flex-services {
+    flex: 0 0 30%;
+  }
+  .flex-services-tablet {
+    flex: 0 0 45%;
+  }
+  .flex-services-phones {
+    flex: 0 0 100%;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
